@@ -1,4 +1,5 @@
 {
+  "homepage":"https://github.com/MayankSaxena2214/Marknox",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,8 @@
   "scripts": {
   "dev": "vite",
   "build": "vite build",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d dist",
+  "predeploy":"npm run build"
 }
 ,
   "dependencies": {
