@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import Home from './components/Home/Home'
 import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
@@ -12,12 +12,12 @@ import "./App.css"
 const App = () => {
   return (
     <div className="app-container">
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
           <Route path='/' element={<Layout/>}/>
           
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </div>
   )
 }
