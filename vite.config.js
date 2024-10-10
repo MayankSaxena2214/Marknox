@@ -1,9 +1,8 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
+// Update the base to your repo name
 export default defineConfig({
   plugins: [react()],
-  // Remove this for local development
-  // base: '/Portfolio_Marknox/',
-})
+  base: '/Marknox/', // Your GitHub repository name
+});
